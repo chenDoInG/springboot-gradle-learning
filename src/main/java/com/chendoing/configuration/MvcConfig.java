@@ -7,7 +7,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-public class JspConfig {
+public class MvcConfig {
 
     @Bean
     public ViewResolver viewResolver(){
