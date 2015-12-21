@@ -1,12 +1,10 @@
-package com.chendoing.data;
+package com.chendoing.service;
 
 import com.chendoing.domain.Spittle;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public interface SpittleRepository {
+public interface SpittleService {
     List<Spittle> findSpittles(long max, int count);
     Spittle findOne(long spittleId);
 }
